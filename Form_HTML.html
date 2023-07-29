@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<lang="pt-br">
+<head><br>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <br />
+</head>
+<body>
+<header>
+    <h1>Formulario HTML</h1>
+    <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label>Nome: </label> <input type="text" />
+    <label>Celular</label> <input number="tel" /><br>
+    <label>Endereço: </label> <input type="text" width="10"/>
+    <label>Number: </label> <input type="number" min="0" step="5" max="99" /><br>
+
+    <label>Cidade: </label>
+    <input list="cidade" name="cidade" />
+    <datalist id="cidade">
+        <option value="Sao Bernardo do Campo"> Sao Bernardo do Campo </option>
+        <option value="Curitiba">Curitiba</option>
+        <option value="Manaus">Manaus</option></datalist>
+
+    <label>Estado: </label>
+    <input list="estado" name="Estado" />
+    <datalist id="estado">
+        <option value="Sao Paulo"> Sao Paulo </option>
+        <option value="Parana"> Parana</option>
+        <option value="Amazonas">Amazonas</option></datalist><br><br />
+
+    <label>Range: </label> <input type="range" min="0" max="'100" value="90" />
+    <label>Color: </label> <input type="color" /><br>
+    <label>E-mail: </label> <input type="email" />
+    <label>Url: </label> <input type="url" /><br></fieldset>
+    <fieldset>
+
+        <legend>Histórico Profissional</legend>
+        <label>Empresa: </label> <input type="text" /><br><br />
+        <label>Cargo:</label>
+            <select name="role">
+                <option value=""> Selecione o cargo</option>
+                <option value="Administrativo"> Administrativo</option>
+                <option value="Analista"> Analista</option>
+                <option selected value="Gerente"> Gerente</option>
+                <option value="Diretor"> Diretor</option>
+                <option value="Presidente"> Presidente</option>
+            </select>
+            <label>Nível:</label>
+            <select name="role">
+                <option value=""> Selecione o nível</option>
+                <option value="Junior"> Junior</option>
+                <option value="Pleno"> Pleno</option>
+                <option value="Senior"> Senior</option>
+                <option value="Técnico"> Técnico</option>
+                <option value="Consultor"> Consultor</option>
+            </select>
+            <label>Departamento:</label>
+            <select name="role">
+                <option value=""> Selecione o departamento</option>
+                <option value="Junior"> Recursos Humanos</option>
+                <option value="Pleno"> Projetos</option>
+                <option value="Senior"> Compras</option>
+                <option value="Técnico"> Planejamento</option>
+                <option value="Consultor"> Engenharia</option>
+            </select><br><br />
+
+            <legend>Período do Contrato</legend>
+            <label>Date: </label> <input type="date" />
+            <label>Week: </label> <input type="week" />
+            <label>Month: </label> <input type="month" /><br>
+    </fieldset>
+    <fieldset>
+            <label>Jornada de Trabalhados: </label><br />
+                 <input type="checkbox" name="dia-da-semana"
+                 value=2 /> Domingo <br />
+
+                <input type="checkbox" name="dia-da-semana"
+                value=2 /> Segunda-Feira <br />
+
+                <input type="checkbox" name="dia-da-semana"
+                value=2 /> Terça-Feira <br />
+
+                <input type="checkbox" name="dia-da-semana"
+                value=2 /> Quarta-Feira <br />
+
+                <input type="checkbox" name="dia-da-semana"
+                value=2 /> Quinta-Feira <br />
+
+                <input type="checkbox" name="dia-da-semana"
+                value=2 /> Sexta-Feira<br />
+
+                <input type="checkbox" name="dia-da-semana"
+                value=2 /> Sabado <br><br />
+
+                <label>Horário: </label><br />
+                <input type="radio" name="horario"
+                value="integral" /> Integral <br />
+        
+                <input type="radio" name="horario"
+                value="meio periodo" /> Meio Período <br />
+        
+                </label> <input type="radio" name="horario"
+                value="tarde" /> Tarde <br />
+
+                </label> <input type="radio" name="horario"
+                value="noite" /> Noite <br><br />
+        </fieldset>
+
+        <fieldset>
+            <legend>Arquivos</legend>
+        <label>Checkbox: <input type="checkbox" /></label>
+        <label>Radio: <input type="radio" /></label>
+        <label>Hidden: </label> <input type="hidden" /><br><br />
+        <label>Curriculo: </label> <input type="file" />
+        <label>Foto: </label> <input type="search" /><br>
+        <br /></fieldset>
+        <fieldset>
+        
+        <fieldset>
+            <audio controls controlsList ="nodownload">
+                <source src="C:\Users\denis\OneDrive\Documentos\Cursos\ServiceNow\HTML5\Programação Web\Som\Savior.mp3"
+                type="audio/mpeg">
+            </audio><p></p>
+        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nNIrPOK8WUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        </fieldset><br><br />
+
+        <button> Outra Ação </button>
+        <button> Limpar </button>
+        <input type= "submit">
+
+</select>
+</forma>
+    </select>
+</body>
+</html>
